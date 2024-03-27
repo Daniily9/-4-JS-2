@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Список фільмів</h2>
+
+    <div class="ip"><input type="text" id="myInput" oninput="myFunction()" placeholder="Пошук.."></div>
+    
+    <div id="myUL">
+      <!-- Картки фільмів будуть додаватися тут -->
+    </div>
+
+    <div id="subscribe">
+      <h2>Підпишіться на наші повідомлення</h2>
+      <button onclick="subscribe(true)">Підписатися</button>
+      <button onclick="subscribe(false)">Не зараз</button>
+  </div>
+
+  <div id="modal">
+    <h2>Реклама</h2>
+    <p>Слава Україні!!!</p>
+    <button onclick="closeModal()">Закрити</button>
+</div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
